@@ -1,253 +1,246 @@
-          body {
-              margin: 0;
-              padding: 0;
-              font-family: 'Josefin Sans', normal;
-              background-image: url(/img/8.jpg);
-              background-position: center center;
-              background-repeat: no-repeat;
-              background-attachment: fixed;
-              background-size: cover;
-              background-color: #999;
-              height: 100%;
-          }
-          
-          p {
-              color: #f5f5f5;
-              background-color: rgba(0, 0, 0, 0.6);
-              width: 100%;
-              text-align: center;
-              padding: 10px 100px;
-              font-size: 12pt;
-          }
-          
-          h1 {
-              color: #f5f5f5;
-              background-color: rgba(0, 0, 0, 0.6);
-              width: 100%;
-              text-align: center;
-              padding: 10px 100px;
-          }
-          /*ABOUT*/
-          
-          .img-circle {
-              border-radius: 50%;
-              border-color: #73a4f4;
-              border-style: solid;
-              border-width: 3px;
-          }
-          /*ABOUT*/
-          /*NAV*/
-          
-          .navbar-default {
-              background-color: transparent;
-              border-color: transparent;
-              color: #f5f5f5;
-              text-align: center;
-              display: inline-block;
-              float: none;
-          }
-          
-          .navbar-default .navbar-nav>li>a {
-              color: #f5f5f5;
-          }
-          
-          .navbar-collapse {
-              text-align: center;
-              background-color: transparent;
-              border-color: transparent;
-              width: 100%;
-          }
-          
-          .navbar-nav {
-              display: inline-block;
-              float: none;
-          }
-          /*NAV*/
-          
-          #techList {
-              columns: 3;
-          }
-          
-          ul {
-              list-style-type: none;
-              text-align: center;
-              background-color: rgba(0, 0, 0, 0.6);
-          }
-          
-          li {
-              font-family: 'Poppins', normal;
-              color: #f5f5f5;
-          }
-          /*HOME*/
-          
-          div,
-          .wrapper {
-              height: 100%;
-              width: 100%;
-          }
-          
-          .message {
-              -webkit-box-sizing: border-box;
-              -moz-box-sizing: border-box;
-              box-sizing: border-box;
-              width: 100%;
-              height: 45%;
-              bottom: 0;
-              display: block;
-              position: absolute;
-              background-color: rgba(0, 0, 0, 0.6);
-              color: #fff;
-              padding: 0.5em;
-              text-align: center;
-          }
-          
-          #container {
-              height: 400px;
-              width: 400px;
-              position: relative;
-          }
-          
-          h4,
-          h1 {
-              font-family: 'Josefin Sans', normal;
-          }
-          /*HOME*/
-          /*CONTACTFORM*/
-          /* section#contact {
-     background-color: #222222;
-     background-image: url('/img/DSC00793s.jpg');
-     background-position: center;
-     background-repeat: no-repeat;
- }
-*/
-          
-          section {
-              padding: 30px 0PX;
-          }
-          
-          .about_our_company {
-              text-align: center;
-          }
-          
-          .about_our_company h1 {
-              font-size: 25px;
-          }
-          
-          .titleline-icon {
-              position: relative;
-              max-width: 100px;
-              border-top: 4px double #F99700;
-              margin: 20px auto 20px;
-          }
-          
-          .titleline-icon:after {
-              position: absolute;
-              top: -11px;
-              left: 0;
-              right: 0;
-              margin: auto;
-              font-family: 'FontAwesome';
-              content: "\f141";
-              font-size: 20px;
-              line-height: 1;
-              color: #F99700;
-              text-align: center;
-              vertical-align: middle;
-              width: 40px;
-              height: 20px;
-              background: #ffffff;
-          }
-          /*CONTACTFORM*/
-          /*PORTFOLIO*/
-          
-          #images {
-              max-width: 60%;
-              max-height: 60%;
-              padding: 0px 25px
-          }
-          
-          .imageHolder {
-              width: 90%;
-              margin: auto;
-              font-size: 0;
-          }
-          
-          h3 {
-              text-align: center;
-              font-size: 1.65em;
-              margin: 0 0 30px;
-          }
-          
-          a {
-              font-size: 16px;
-              display: inline-block;
-              margin-bottom: 8px;
-              width: calc(50% - 4px);
-              margin-right: 8px;
-              text-decoration: none;
-              color: black;
-          }
-          
-          a:nth-of-type(2n) {
-              margin-right: 0;
-          }
-          
-          @media screen and (min-width: 50em) {
-              a {
-                  width: calc(25% - 6px);
-              }
-              a:nth-of-type(2n) {
-                  margin-right: 8px;
-              }
-              a:nth-of-type(4n) {
-                  margin-right: 0;
-              }
-          }
-          
-          a:hover img {
-              transform: scale(1.15);
-          }
-          
-          a:hover {
-              background-color: white;
-          }
-          
-          figure {
-              margin: 0;
-              overflow: hidden;
-          }
-          
-          figcaption {
-              margin-top: 15px;
-              padding: 10px;
-          }
-          
-          img {
-              border: solid;
-              border-width: 1px;
-              border-color: white;
-              max-width: 100%;
-              height: auto;
-              display: block;
-              background: #ccc;
-              transition: transform .2s ease-in-out;
-          }
-          
-          .p a {
-              display: inline;
-              font-size: 13px;
-              margin: 0;
-              /*text-decoration: underline;*/
-              color: blue;
-          }
-          
-          .p {
-              text-align: center;
-              font-size: 13px;
-              padding-top: 100px;
-          }
-          
-          .containerPortfolio {
-              margin-right: auto;
-              margin-left: auto;
-          }
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', normal;
+    background-image: url(/img/8.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+    height: 100%;
+}
+
+p {
+    color: #f5f5f5;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    padding: 10px 100px;
+    font-size: 12pt;
+}
+
+h1 {
+    color: #f5f5f5;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    text-align: center;
+    padding: 10px 100px;
+    font-family: 'Josefin Sans', normal;
+}
+
+h3 {
+    color: #f5f5f5;
+}
+
+h4 {
+    font-family: 'Josefin Sans', normal;
+}
+
+
+/*ABOUT*/
+
+.aboutMeBackground {
+    background-color: rgba(138, 109, 59, 0.45);
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+figure:hover {
+    bottom: -36px;
+    opacity: 1;
+}
+
+.img-circle {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 3px;
+    background-color: rgba(138, 109, 59, 0.45);
+}
+
+#moreNathanBtn {
+    color: #fff;
+    background-color: rgba(138, 109, 59, 0.42);
+    border-color: #ddd;
+    font-size: 18px;
+}
+
+
+/*ABOUT*/
+
+
+/*NAV*/
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    color: #f5f5f5;
+    text-align: center;
+    display: inline-block;
+    float: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #f5f5f5;
+}
+
+.navbar-collapse {
+    text-align: center;
+    background-color: transparent;
+    border-color: transparent;
+    width: 100%;
+}
+
+.navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+
+/*NAV*/
+
+#techList {
+    columns: 3;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+li {
+    font-family: 'Poppins', normal;
+    color: #f5f5f5;
+}
+
+
+/*HOME*/
+
+div,
+.wrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.message {
+    height: 45%;
+    bottom: 0;
+    display: block;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+}
+
+#container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+
+/*HOME*/
+
+
+/*CONTACTFORM*/
+
+section {
+    padding: 30px 0PX;
+}
+
+#contact {
+    font-size: 18px;
+    background-color: rgba(138, 109, 59, 0.45);
+    /*columns: 3;*/
+    padding: 10px;
+}
+
+#contact a {
+    color: white;
+    padding: 30px;
+    width: 80%;
+}
+
+.icons {
+    color: white;
+}
+
+span.network-name {
+    font-size: 25px;
+}
+
+span.network-name:hover,
+span.network-name:focus {
+    text-decoration: none;
+    color: #aaf;
+    text-shadow: none;
+    -webkit-transition: 500ms linear 0s;
+    -moz-transition: 500ms linear 0s;
+    -o-transition: 500ms linear 0s;
+    transition: 500ms linear 0s;
+    outline: 0 none;
+}
+
+.icon-holder {
+    max-width: 400px;
+    margin: 50px auto 0;
+}
+
+.icon-holder p {
+    margin-bottom: 0;
+}
+
+.social-btns {
+    padding: 10px;
+}
+
+#techBackground {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+
+/*CONTACTFORM*/
+
+
+/*PORTFOLIO*/
+
+.fa {
+    color: whitesmoke;
+}
+
+section {
+    padding: 30px 0PX;
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.appTitle {
+    font-size: 28px;
+    background-color: rgba(138, 109, 59, 0.45);
+    color: white;
+}
+
+.appDescrip,
+.appTitle {
+    padding: 15px;
+    color: #fff;
+    border-color: #ddd;
+}
+
+.appDescrip,
+.paragraph {
+    font-size: 18px;
+    background-color: rgba(138, 109, 59, 0.95);
+}
+
+.img-responsive {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
