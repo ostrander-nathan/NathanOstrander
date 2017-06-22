@@ -2,7 +2,7 @@
 
 app.config(function($routeProvider) {
     $routeProvider
-        .when('/home', {
+        .when('/', {
             templateUrl: '../partials/home.html',
             controller: 'HomeController'
         })
